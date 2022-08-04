@@ -38,21 +38,14 @@ function App() {
               cursor-pointer hover:opacity-75 duration-150"
               />
             </div>
-            <div className="opacity-75 italic">
-              By subscribing, you agree with Revue’s 
-              <a target="_blank" href="https://www.getrevue.co/terms" className="hover:opacity-75 duration-150"> Terms of Service </a> 
-              and 
-              <a target="_blank" href="https://www.getrevue.co/privacy" className="hover:opacity-75 duration-150"> Privacy Policy </a>.
-              </div>
+           
           </form>
       </main>
 
       <footer className="container mx-auto p-6 flex flex-col md:flex-row items-center justify-between">
             <p> © {new Date().getFullYear()} All rights reserved. Sumit Shrestha </p>
             <div className="flex -mx-6">
-                <a href="#" className="mx-3 hover:opacity-80 duration-150"> About </a> |
-                <a href="#" className="mx-3 hover:opacity-80 duration-150"> Privacy </a> |
-                <a href="#" className="mx-3 hover:opacity-80 duration-150"> Contact </a>  
+                <a href="https://thesumitshrestha.xyz/" target="_blank" className="mx-3 hover:opacity-80 duration-150"> About </a>
             </div>
       </footer>
   </div>
